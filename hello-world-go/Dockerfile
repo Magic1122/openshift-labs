@@ -5,7 +5,7 @@ FROM golang:alpine
 COPY src/hello-world.go /go/hello-world.go
 
 # Set the default environment variables
-ENV MESSAGE "Welcome! You can change this message by editing the MESSAGE environment variable."
+ENV MESSAGE "Test from a different branch."
 ENV HOME /go
 
 # Set permissions to the /go folder (for OpenShift)
