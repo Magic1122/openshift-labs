@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo Hello from Override
+
+#Call the original script
+/usr/libexec/s2i/assemble
